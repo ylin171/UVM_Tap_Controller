@@ -1,0 +1,14 @@
+{H:/My Drive/JobHunt/newProjects/tap_controller_UVM_Polished/aaa_testbench_top.sv} {2 {vlog -work work -vopt -sv -stats=none {H:/My Drive/JobHunt/newProjects/tap_controller_UVM_Polished/aaa_testbench_top.sv}
+Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+** Note: (vlog-2286) H:/My Drive/JobHunt/newProjects/tap_controller_UVM_Polished/aaa_testbench_top.sv(9): Using implicit +incdir+C:/modeltech64_10.6e/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package aaa_testbench_top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Warning: H:\My Drive\JobHunt\newProjects\tap_controller_UVM_Polished\tap_sequence.sv(26): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: H:\My Drive\JobHunt\newProjects\tap_controller_UVM_Polished\tap_sequence.sv(58): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+-- Compiling interface tap_interface
+-- Compiling module aaa_tb_top
+
+Top level modules:
+	aaa_tb_top
+
+} {} {}}

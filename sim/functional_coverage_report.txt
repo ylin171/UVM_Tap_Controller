@@ -1,0 +1,142 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /aaa_testbench_top_sv_unit/tap_coverage/state_transition_cg 
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    50         50                      
+    missing/total bins:                                     0         50                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint state_transition_cg::state              100.0%        100    Covered              
+        covered/total bins:                                16         16                      
+        missing/total bins:                                 0         16                      
+        % Hit:                                         100.0%        100                      
+        bin reset                                          42          1    Covered              
+        bin idle                                           67          1    Covered              
+        bin select_dr                                      57          1    Covered              
+        bin capture_dr                                     27          1    Covered              
+        bin shift_dr                                       55          1    Covered              
+        bin exit1_dr                                       31          1    Covered              
+        bin pause_dr                                       38          1    Covered              
+        bin exit2_dr                                       16          1    Covered              
+        bin update_dr                                      26          1    Covered              
+        bin select_ir                                      30          1    Covered              
+        bin capture_ir                                     16          1    Covered              
+        bin shift_ir                                       27          1    Covered              
+        bin exit1_ir                                       18          1    Covered              
+        bin pause_ir                                       22          1    Covered              
+        bin exit2_ir                                       13          1    Covered              
+        bin update_ir                                      16          1    Covered              
+    Coverpoint state_transition_cg::tms_val            100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin tms_low                                       240          1    Covered              
+        bin tms_high                                      261          1    Covered              
+    Cross state_transition_cg::state_x_tms             100.0%        100    Covered              
+        covered/total bins:                                32         32                      
+        missing/total bins:                                 0         32                      
+        % Hit:                                         100.0%        100                      
+        bin <reset,tms_low>                                19          1    Covered              
+        bin <idle,tms_low>                                 33          1    Covered              
+        bin <select_dr,tms_low>                            25          1    Covered              
+        bin <capture_dr,tms_low>                           13          1    Covered              
+        bin <shift_dr,tms_low>                             29          1    Covered              
+        bin <exit1_dr,tms_low>                             14          1    Covered              
+        bin <pause_dr,tms_low>                             18          1    Covered              
+        bin <exit2_dr,tms_low>                              8          1    Covered              
+        bin <update_dr,tms_low>                            11          1    Covered              
+        bin <select_ir,tms_low>                            14          1    Covered              
+        bin <capture_ir,tms_low>                            9          1    Covered              
+        bin <shift_ir,tms_low>                             10          1    Covered              
+        bin <exit1_ir,tms_low>                              9          1    Covered              
+        bin <pause_ir,tms_low>                             12          1    Covered              
+        bin <exit2_ir,tms_low>                              8          1    Covered              
+        bin <update_ir,tms_low>                             8          1    Covered              
+        bin <reset,tms_high>                               23          1    Covered              
+        bin <idle,tms_high>                                34          1    Covered              
+        bin <select_dr,tms_high>                           32          1    Covered              
+        bin <capture_dr,tms_high>                          14          1    Covered              
+        bin <shift_dr,tms_high>                            26          1    Covered              
+        bin <exit1_dr,tms_high>                            17          1    Covered              
+        bin <pause_dr,tms_high>                            20          1    Covered              
+        bin <exit2_dr,tms_high>                             8          1    Covered              
+        bin <update_dr,tms_high>                           15          1    Covered              
+        bin <select_ir,tms_high>                           16          1    Covered              
+        bin <capture_ir,tms_high>                           7          1    Covered              
+        bin <shift_ir,tms_high>                            17          1    Covered              
+        bin <exit1_ir,tms_high>                             9          1    Covered              
+        bin <pause_ir,tms_high>                            10          1    Covered              
+        bin <exit2_ir,tms_high>                             5          1    Covered              
+        bin <update_ir,tms_high>                            8          1    Covered              
+ CLASS tap_coverage
+ Covergroup instance \/aaa_testbench_top_sv_unit::tap_coverage::state_transition_cg  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    50         50                      
+    missing/total bins:                                     0         50                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint state                                   100.0%        100    Covered              
+        covered/total bins:                                16         16                      
+        missing/total bins:                                 0         16                      
+        % Hit:                                         100.0%        100                      
+        bin reset                                          42          1    Covered              
+        bin idle                                           67          1    Covered              
+        bin select_dr                                      57          1    Covered              
+        bin capture_dr                                     27          1    Covered              
+        bin shift_dr                                       55          1    Covered              
+        bin exit1_dr                                       31          1    Covered              
+        bin pause_dr                                       38          1    Covered              
+        bin exit2_dr                                       16          1    Covered              
+        bin update_dr                                      26          1    Covered              
+        bin select_ir                                      30          1    Covered              
+        bin capture_ir                                     16          1    Covered              
+        bin shift_ir                                       27          1    Covered              
+        bin exit1_ir                                       18          1    Covered              
+        bin pause_ir                                       22          1    Covered              
+        bin exit2_ir                                       13          1    Covered              
+        bin update_ir                                      16          1    Covered              
+    Coverpoint tms_val                                 100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin tms_low                                       240          1    Covered              
+        bin tms_high                                      261          1    Covered              
+    Cross state_x_tms                                  100.0%        100    Covered              
+        covered/total bins:                                32         32                      
+        missing/total bins:                                 0         32                      
+        % Hit:                                         100.0%        100                      
+        bin <reset,tms_low>                                19          1    Covered              
+        bin <idle,tms_low>                                 33          1    Covered              
+        bin <select_dr,tms_low>                            25          1    Covered              
+        bin <capture_dr,tms_low>                           13          1    Covered              
+        bin <shift_dr,tms_low>                             29          1    Covered              
+        bin <exit1_dr,tms_low>                             14          1    Covered              
+        bin <pause_dr,tms_low>                             18          1    Covered              
+        bin <exit2_dr,tms_low>                              8          1    Covered              
+        bin <update_dr,tms_low>                            11          1    Covered              
+        bin <select_ir,tms_low>                            14          1    Covered              
+        bin <capture_ir,tms_low>                            9          1    Covered              
+        bin <shift_ir,tms_low>                             10          1    Covered              
+        bin <exit1_ir,tms_low>                              9          1    Covered              
+        bin <pause_ir,tms_low>                             12          1    Covered              
+        bin <exit2_ir,tms_low>                              8          1    Covered              
+        bin <update_ir,tms_low>                             8          1    Covered              
+        bin <reset,tms_high>                               23          1    Covered              
+        bin <idle,tms_high>                                34          1    Covered              
+        bin <select_dr,tms_high>                           32          1    Covered              
+        bin <capture_dr,tms_high>                          14          1    Covered              
+        bin <shift_dr,tms_high>                            26          1    Covered              
+        bin <exit1_dr,tms_high>                            17          1    Covered              
+        bin <pause_dr,tms_high>                            20          1    Covered              
+        bin <exit2_dr,tms_high>                             8          1    Covered              
+        bin <update_dr,tms_high>                           15          1    Covered              
+        bin <select_ir,tms_high>                           16          1    Covered              
+        bin <capture_ir,tms_high>                           7          1    Covered              
+        bin <shift_ir,tms_high>                            17          1    Covered              
+        bin <exit1_ir,tms_high>                             9          1    Covered              
+        bin <pause_ir,tms_high>                            10          1    Covered              
+        bin <exit2_ir,tms_high>                             5          1    Covered              
+        bin <update_ir,tms_high>                            8          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.0%  COVERGROUP TYPES: 1
